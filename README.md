@@ -1,3 +1,35 @@
+# Credit Risk Analysis using SQL  
+
+## 📌 Project Overview  
+This project analyzes credit risk by evaluating customer loan repayment data.  
+The goal is to identify **late payments, default trends, and risk categories** using SQL queries.  
+
+## 📂 Dataset  
+- **Customers**: Customer demographics (ID, Name, Age, Gender, Income)  
+- **Loans**: Loan details (Amount, Interest Rate, Type, Issue Date)  
+- **Payments**: Payment history (Due Date, Payment Date, Amount Paid)  
+
+## 🛠 SQL Features Used  
+- Joins  
+- Aggregations  
+- CASE statements  
+- Window functions (optional extension)  
+
+## 📊 Insights  
+- Customers segmented into **Low / Medium / High Risk** based on repayment history  
+- Portfolio analysis by **loan type**  
+- Income vs loan exposure trends  
+
+## 🚀 How to Run  
+1. Run `schema.sql` → creates tables.  
+2. Run `data.sql` → inserts sample data.  
+3. Run `queries.sql` → performs analysis.  
+
+---
+
+
+#relevant images
+
 #customers data
 <img width="310" height="105" alt="image" src="https://github.com/user-attachments/assets/4d14a1b4-a598-4771-81f9-6e909137ad32" />
 
